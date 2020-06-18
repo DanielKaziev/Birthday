@@ -14,7 +14,7 @@ body{
 .text{
     font-size: 25px;
 }
-.date{
+#date{
     font-size: 15px;
     font-weight: 550;
 }
