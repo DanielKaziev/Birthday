@@ -135,3 +135,8 @@ function sound() {
 	audio.volume = 0.3;
 	document.getElementById("btn").setAttribute("disabled","disabled");
 }
+function date() {
+	let now = new Date();
+	var date_now = document.getElementById("date");
+	date_now.innerHTML = now.getDate() + "." + (now.getMonth()+1) + "." + now.getFullYear();
+}
