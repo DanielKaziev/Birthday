@@ -138,5 +138,12 @@ function sound() {
 function date() {
 	let now = new Date();
 	var date_now = document.getElementById("date");
-	date_now.innerHTML = now.getDate() + "." + (now.getMonth()+1) + "." + now.getFullYear();
+	var month = now.getMonth() + 1;
+	if (month < 10) {
+		var month_check = "0" + month;
+
+	} else {
+		alert("jopa");
+	}
+	date_now.innerHTML = now.getDate() + "."+ month_check + "." + now.getFullYear();
 }
