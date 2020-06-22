@@ -130,7 +130,7 @@ var removeConfetti; //call to stop the confetti animation and remove all confett
 })();
 function sound() {
 	var audio = new Audio();
-	audio.src = 'music2.mp3';
+	audio.src = 'music1.mp3';
 	audio.autoplay = true;
 	audio.volume = 0.3;
 	document.getElementById("btn").setAttribute("disabled","disabled");
