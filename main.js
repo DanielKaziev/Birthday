@@ -143,7 +143,7 @@ function date() {
 		var month_check = "0" + month;
 
 	} else {
-		alert("jopa");
+		var month_check = month;
 	}
 	date_now.innerHTML = now.getDate() + "."+ month_check + "." + now.getFullYear();
 }
